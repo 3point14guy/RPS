@@ -1,0 +1,115 @@
+* {
+	font-family: Helvetica;
+	margin: 0;
+	text-align: center;
+}
+
+body {
+	background-color: #fefefe;
+}
+
+.header {
+	background-color: #F7F5FB;
+	padding: 36px;
+	border-bottom: 1px solid #909CC2;
+}
+
+.game-container {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	margin-top: 72px;
+	/*height: 500px;*/
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.col {
+	flex: 1 1 20%;
+	overflow: hidden;
+	/*height: 200px;*/
+	/*padding: 24px;*/
+}
+
+.col-header {
+	padding: 12px 0 12px;
+	background-color: #084887;
+	color: #F7F5FB;
+}
+
+.score {
+	padding: 12px 0 12px;
+	border-top: 1px solid #909CC2;
+	background-color: #F7F5FB;
+}
+
+.player {
+	border: 1px solid #909CC2;
+	border-radius: 8px;
+}
+
+.button {
+	padding: 24px 0 24px;
+	font-size: 1.2em;
+}
+
+.human .button {
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 12px;
+}
+
+.hovered {
+	box-shadow: inset 0px 0px 12px 1px gold;
+}
+
+.result {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.win {
+	background-color: #77C944
+}
+
+.lose {
+	background-color: #C63D3D
+}
+
+.tie {
+	background-color: #D1D0CC
+}
+
+.end-screen {
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.blur {
+	filter: blur(15px);
+}
+
+.replay {
+	cursor: pointer;
+}

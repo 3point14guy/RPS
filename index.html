@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="blur-wrapper">
+		<div class="header">
+			
+			<h1>
+				<p><i class="far fa-hand-rock"></i> Rock 
+				<i class="far fa-hand-paper"></i> Paper 
+				<i class="far fa-hand-scissors"></i> Scissors</p>
+			</h1>
+			
+			
+			<p><i>Best of 5 wins the match!</i></p>
+			
+			
+		</div>
+
+		<div class="game-container">
+			<div class="col player human">
+				<div class="col-header">	
+					<h2>Human</h2>
+				</div>
+				<div class="button" data-move="0"><i class="far fa-hand-rock"></i> Rock</div>
+				<div class="button" data-move="1"><i class="far fa-hand-paper"></i> Paper</div>
+				<div class="button" data-move="2"><i class="far fa-hand-scissors"></i> Scissors</div>
+				<div class="score">Score: 0</div>
+			</div>
+			
+			<div class="col result">
+				<div><h2></h2></div>
+			</div>
+
+			<div class="col player comp">
+				<div class="col-header">	
+					<h2>Computer</h2>
+				</div>
+				<div class="button" data-move="0"><i class="far fa-hand-rock"></i> Rock</div>
+				<div class="button" data-move="1"><i class="far fa-hand-paper"></i> Paper</div>
+				<div class="button" data-move="2"><i class="far fa-hand-scissors"></i> Scissors</div>
+				<div class="score">Score: 0</div>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<div class="win-screen end-screen">
+		<h1>🍾 You won! 🎉</h1>
+		<p class="replay">play again?</p>
+	</div>
+
+	<div class="lose-screen end-screen">
+		<h1>😱 You lost! 😭</h1>
+		<p class="replay">play again?</p>
+	</div>
+	
+
+		
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
